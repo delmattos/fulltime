@@ -5,9 +5,3 @@ $(function() {
   $('#exit-time').timepicki();
   $('[data-toggle="tooltip"]').tooltip();
 })
-
-$('#btn-edit').click(function() {
-  $('#start-time').timepicki();
-});
-
-

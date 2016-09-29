@@ -3,7 +3,40 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size:  cover;
+}
+
+.brand-wrap {
+  background:       url(../images/logo_fulltime.svg) no-repeat center center;
+  height:           250px;
+  margin-top:       7%;
+  position:         absolute;
+  width:            60%;
+}
+
+.brand-collapse {
+  display:          none;
+  color:            $sky-blue;
+  font-size:        3em;
+  text-align:       center;
+}
+
+.description-box {
+  bottom:           20px;
+  color:            white;
+  left:             20px;
+  position:         absolute;
+  width:            60%;
+}
+
+.highlight-slogan {
+  font-weight:      bold;
+  text-transform:   uppercase;
+}
+
+.description-txt {
+  font-size:        1.2em;
+  line-height:      1.5em;
 }
 
 .sidebox {
@@ -13,6 +46,28 @@
   margin:           20px 20px 0 40px;
   position:         absolute;
   right:            0;
+}
+
+.tab {
+  float:            left;
+  height:           60px;
+  line-height:      60px;
+  margin-bottom:    20px;
+  text-align:       center;
+  width:            50%;
+}
+
+.tab-disabled {
+  background:       $gray;
+  border-radius:    0 10px 0 0;
+}
+
+.paragraph-margin {
+  margin:           25px 0;
+}
+
+.check-margin {
+  margin:           10px 0 30px;
 }
 
 .title-line {
@@ -25,6 +80,12 @@
   font-weight:      bold;
   line-height:      30px;
   text-transform:   uppercase;
+}
+
+.title-chart {
+  font-size:        1.2em;
+  margin-top:       20px;
+  text-align:       left;
 }
 
 .disabled {
@@ -48,7 +109,11 @@
 
 .align-right {
   text-align:       right
-} 
+}
+
+.align-center {
+  text-align:       center;
+}
 
 .box {
   background:       white;
@@ -115,6 +180,13 @@
   width:            115px;
 }
 
+.hourpicker:focus {
+  border-color:     #66afe9;
+  outline:          0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+  box-shadow:       inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+}
+
 .timepicker_wrap {
   background:       white;
   top:              52px;
@@ -124,6 +196,7 @@
 .time, 
 .mins, 
 .meridian {
+  width:            60px;
   margin:           0;
 }
 
@@ -133,6 +206,11 @@
 
 .btn {
   height:           40px;
+}
+
+.btn-primary {
+  background:       $sky-blue;
+  border:           0 solid $sky-blue;
 }
 
 .table {
@@ -155,11 +233,49 @@
 }
 
 .table>thead>tr>th {
-  vertical-align:   middle;
   border-bottom:    1px solid #ddd;
+  vertical-align:   middle;
+}
+
+.nav-justified>li>a, 
+.nav-tabs.nav-justified>li>a,
+.nav-pills>li>a {
+  border-radius:    0;
+}
+
+.form-group {
+  margin-bottom:    20px;
+}
+
+.no-margin {
+  margin:           0 -15px;
 }
 
 @media only screen and (max-width: 439px) {
+  body {
+    overflow-x:     hidden;
+  }
+
+  .brand-wrap {
+    display:        none;
+  }
+
+  .brand-collapse {
+    display:        block;
+  }
+
+  .description-box {
+    display:        none;
+  }
+
+  .sidebox {
+    border-radius:  10px;
+    height:         calc(100% - 40px);
+    left:           -20px;
+    right:          0;
+    width:          calc(100% - 40px);
+  }
+
   .label-hour {
     line-height:    20px;
   }
@@ -170,6 +286,13 @@
 
   .block-time {
     margin-left:    0;
+    width:          160px;
+  }
+
+  .time, 
+  .mins, 
+  .meridian {
+    width:          50px;
   }
 
   .table>thead>tr>th, 
@@ -184,6 +307,22 @@
 }
 
 @media screen and (min-width: 440px) and (max-width: 992px) {
+  .brand-wrap {
+    display:        none;
+  }
+
+  .brand-collapse {
+    display:        block;
+  }
+
+  .sidebox {
+    border-radius:  10px;
+    height:         calc(100% - 40px);
+    left:           -20px;
+    right:          0;
+    width:          calc(100% - 40px);
+  }
+
   .label-hour {
     line-height:    20px;
   }

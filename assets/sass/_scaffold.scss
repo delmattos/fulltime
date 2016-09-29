@@ -43,6 +43,10 @@ tr {
   transition:       0.3s;
 }
 
+label {
+  font-weight:      normal;
+}
+
 .table>tbody>tr:hover,
 .table-striped>tbody>tr:hover,
  {

@@ -16,47 +16,51 @@
 </head>
 
 <body class="img-background">
-    <div style="width: 60%;text-align: center;color: white; margin-top: 30px; float: left; font-size: 6em;">
-      <i class="icon-clock" style="display: block; font-size: 2.5em;margin-bottom: 10px;"></i>
-      <logotype class="icon-fulltime"></logotype>
-    </div>
+    <div class="brand-wrap"></div>
 
-    <div style="position: absolute;left:10px;bottom: 10px;color: white">
-      <h1>Controle o seu tempo</h1>
-      <p>
+    <div class="description-box">
+      <h1 class="highlight-slogan">Controle o seu tempo</h1>
+      <p class="description-txt">
         Tenha controle total sobre o seu tempo de trabalho, aponte suas horas de entrada, saída e almoço. Veja também comparativos gráficos diários, semanais e mensais.
       </p>
-      <p>
+      <p class="description-txt">
         Nunca mais fique perdido sobre a quantidade de horas trabalhadas. <i class="icon-wink"></i>
       </p>
     </div>
 
     <div class="col-xs-12 col-md-4 col-md-offset-8 sidebox">
-      <ul class="nav nav-pills nav-justified">
-        <li>
+      <ul class="no-margin">
+        <li class="tab">
           <a href="#" class="active">Entrar</a>
         </li>
-        <li>
+        <li class="tab tab-disabled disabled">
           <a href="#">Criar conta</a>
         </li>
       </ul>
-      <p>
+
+      <div class="brand-collapse">
+        <i class="icon-clock"></i>
+        <logotype class="icon-fulltime"></logotype>
+      </div>
+      <p class="paragraph-margin">
         Para entrar confirme seus dados de acesso
       </p>
       <div class="form-group">
         <label for="exampleInputEmail1">Email:</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ex: nome@empresa.com.br">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Senha:</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Somente letras e números, mínimo 6 caracteres" maxlength="8">
       </div>
-      <div class="checkbox">
+      <div class="checkbox check-margin">
         <label>
           <input type="checkbox"> Lembrar meus dados na próxima visita
         </label>
       </div>
-      <a href="day.html" type="button" class="btn btn-primary btn-block">OK</a>
+      <div class="paragraph-margin">
+        <a href="pages/day.html" type="button" class="btn btn-primary btn-block">OK</a>
+      </div>
     </div>
 
     <!-- jQuery Plugin -->
