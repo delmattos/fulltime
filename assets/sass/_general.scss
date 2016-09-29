@@ -57,6 +57,12 @@
   width:            50%;
 }
 
+.tab-link {
+  color:            $dark-gray;
+  font-weight:      bold;
+  text-transform:   uppercase;
+}
+
 .tab-disabled {
   background:       $gray;
   border-radius:    0 10px 0 0;
