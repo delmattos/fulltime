@@ -2,61 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Fulltime is a web application for worked hours control: insert yours hours for start, exit and lunch. See also charts and daily, weekly and mountly balance. Never get lost on the amount of hours you work! ;)" >
-    <title>Fulltime</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fulltime is a web application for worked hours control: insert yours hours for start, exit and lunch. See also charts and daily, weekly and mountly balance. Never get lost on the amount of hours you work! ;)" >
+  <title>Fulltime</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/index.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/index.css">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
 </head>
 
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+<body class="img-background">
+    <div style="width: 60%;text-align: center;color: white; margin-top: 30px; float: left; font-size: 6em;">
+      <i class="icon-clock" style="display: block; font-size: 2.5em;margin-bottom: 10px;"></i>
+      <logotype class="icon-fulltime"></logotype>
+    </div>
 
-        <img src="assets/images/logo_fulltime_white.svgz" class="brand-header" alt="Fulttime"/>
-        
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+    <div style="position: absolute;left:10px;bottom: 10px;color: white">
+      <h1>Controle o seu tempo</h1>
+      <p>
+        Tenha controle total sobre o seu tempo de trabalho, aponte suas horas de entrada, saída e almoço. Veja também comparativos gráficos diários, semanais e mensais.
+      </p>
+      <p>
+        Nunca mais fique perdido sobre a quantidade de horas trabalhadas. <i class="icon-wink"></i>
+      </p>
+    </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="nav navbar-nav">
-            <li class="menu-item active">
-              <a href="#">Hoje</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Semana</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Mês</a>
-            </li>
-          </ul>
-        </div>
+    <div class="col-xs-12 col-md-4 col-md-offset-8 sidebox">
+      <ul class="nav nav-pills nav-justified">
+        <li>
+          <a href="#" class="active">Entrar</a>
+        </li>
+        <li>
+          <a href="#">Criar conta</a>
+        </li>
+      </ul>
+      <p>
+        Para entrar confirme seus dados de acesso
+      </p>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email:</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
       </div>
-    </nav>
-
-    <section class="container">
-        <div class="row">
-          <div class="col-md-8">Teste 70%</div>
-          <div class="col-md-4">Teste 30%</div>
-        </div>
-    </section>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Senha:</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Lembrar meus dados na próxima visita
+        </label>
+      </div>
+      <a href="day.html" type="button" class="btn btn-primary btn-block">OK</a>
+    </div>
 
     <!-- jQuery Plugin -->
     <script src="assets/js/jquery-3.1.1.min.js"></script>
@@ -67,6 +68,8 @@
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
 
+    <!-- TimePicki JS -->
+    <script src="assets/js/timepicki.js"></script>
 </body>
 
 </html>

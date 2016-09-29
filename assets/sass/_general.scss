@@ -1,0 +1,208 @@
+.img-background {
+  background:      url(../images/photo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sidebox {
+  background:       white;
+  border-radius:    10px 10px 0 0;
+  height:           calc(100% - 20px);
+  margin:           20px 20px 0 40px;
+  position:         absolute;
+  right:            0;
+}
+
+.title-line {
+  margin:           0 0 15px 0;
+}
+
+.title {
+  color:            $sky-blue;
+  font-size:        1.2em;
+  font-weight:      bold;
+  line-height:      30px;
+  text-transform:   uppercase;
+}
+
+.disabled {
+  opacity:          0.4;
+}
+
+.date-select {
+  border-radius:    2px;
+  padding:          0 5px;
+}
+
+.date-select:active,
+.date-select:focus,
+.date-select:hover {
+  background:       rgba(0,0,0,0.1); 
+}
+
+.date-dropdown {
+  line-height:      30px;
+}
+
+.align-right {
+  text-align:       right
+} 
+
+.box {
+  background:       white;
+  border:           1px solid $gray;
+  border-radius:    5px;
+  margin:           0;
+  padding:          0 10px;
+}
+
+.box-fix {
+  margin:           10px 0;
+  padding:          10px;
+}
+
+.line {
+  margin:           10px 0;
+}
+
+.block-label {
+  display:          inline-block;
+  width:            200px;
+}
+
+.block-time {
+  display:          inline-block;
+  width:            190px;
+  margin-left:      25%;
+}
+
+.block-buttons {
+  display:          inline-block;
+  float:            right;
+  margin-top:       5px;
+}
+
+.block-balance {
+  display:          inline-block;
+  font-size:        1.2em;
+  padding:          5px 0;
+  width:            48%;
+}
+
+.block-results {
+  display:          inline-block;
+  font-size:        1.4em;
+  font-weight:      600;
+  padding:          5px 0;
+  text-align:       right;
+  width:            50%;
+}
+
+.label-hour {
+  font-size:        1.2em;
+  font-weight:      normal;
+  line-height:      50px;
+}
+
+.hourpicker {
+  border:           $gray 1px solid;
+  border-radius:    5px;
+  font-size:        1.6em;
+  height:           50px;
+  padding:          0 10px;
+  width:            115px;
+}
+
+.timepicker_wrap {
+  background:       white;
+  top:              52px;
+  padding:          5px 0;
+}
+
+.time, 
+.mins, 
+.meridian {
+  margin:           0;
+}
+
+.timepicki-input {
+  font-weight:      500;
+}
+
+.btn {
+  height:           40px;
+}
+
+.table {
+  margin:           0 0 10px 0;
+}
+
+.table-responsive {
+  border:           0 solid white;
+}
+
+.table>thead>tr>th, 
+.table>thead>tr>td, 
+.table>tbody>tr>th, 
+.table>tbody>tr>td, 
+.table>tfoot>tr>th, 
+.table>tfoot>tr>td {
+  border-top:       0 solid white;
+  font-size:        1.1em;
+  padding:          15px;
+}
+
+.table>thead>tr>th {
+  vertical-align:   middle;
+  border-bottom:    1px solid #ddd;
+}
+
+@media only screen and (max-width: 439px) {
+  .label-hour {
+    line-height:    20px;
+  }
+
+  .block-label {
+    display:        block;
+  }
+
+  .block-time {
+    margin-left:    0;
+  }
+
+  .table>thead>tr>th, 
+  .table>thead>tr>td, 
+  .table>tbody>tr>th, 
+  .table>tbody>tr>td, 
+  .table>tfoot>tr>th, 
+  .table>tfoot>tr>td {
+    font-size:      0.9em;
+    padding:        10px 3px;
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 992px) {
+  .label-hour {
+    line-height:    20px;
+  }
+
+  .block-label {
+    display:        block;
+  }
+
+  .block-time {
+    margin-left:    0;
+  }
+
+  .table>thead>tr>th, 
+  .table>thead>tr>td, 
+  .table>tbody>tr>th, 
+  .table>tbody>tr>td, 
+  .table>tfoot>tr>th, 
+  .table>tfoot>tr>td {
+    font-size:      0.9em;
+    padding:        10px 3px;
+  }
+}
