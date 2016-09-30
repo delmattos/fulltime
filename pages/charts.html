@@ -30,7 +30,7 @@
         </a>
         <ul class="dropdown-menu">
           <li>
-              <a href="#">Configurações</a>
+              <a href="#" class="disabled" data-toggle="tooltip" data-placement="top" title="Em breve!">Configurações</a>
           </li>
           <li>
               <a href="../index.html">Sair</a>
@@ -77,7 +77,7 @@
     <div class="row box align-center">
       <div class="title-chart">Total de horas na semana</div>
       <hr/>
-      <canvas id="chart-weeks" width="600" height="250">
+      <canvas id="chart-days" width="600" height="250">
           [Seu navegador não suporta canvas :()]
       </canvas>
     </div>
@@ -118,19 +118,20 @@
 
   <script>
     new RGraph.Bar({
-        id: 'chart-weeks',
-        data: ['42,05','44,13','44,58','35,11','0'],
+        id: 'chart-days',
+        data: ['8.05','8.13','7,58','8,33','3,01'],
         options: {
             textAccessible: true,
             labels: ['SEG','TER','QUA','QUI','SEX'],
             labelsAboveSize: 11,
-            labelsAboveUnitsPost: ' horas',
+            labelsAboveUnitsPost: 'h ~',
+            labelsScaleDecimals: 2,
             colors: [
-                'rgba(201,48,44,0.7)',
                 'rgba(92,184,92,0.7)',
                 'rgba(92,184,92,0.7)',
                 'rgba(201,48,44,0.7)',
                 'rgba(92,184,92,0.7)',
+                'rgba(201,48,44,0.7)',
             ],
             colorsSequential: true,
             textSize: 12,

@@ -8,8 +8,8 @@
 
 .brand-wrap {
   background:       url(../images/logo_fulltime.svg) no-repeat center center;
-  height:           250px;
-  margin-top:       7%;
+  height:           380px;
+  margin-top:       10%;
   position:         absolute;
   width:            60%;
 }
@@ -17,38 +17,34 @@
 .brand-collapse {
   display:          none;
   color:            $sky-blue;
-  font-size:        3em;
+  font-size:        4em;
   text-align:       center;
 }
 
 .description-box {
-  bottom:           20px;
+  background:       rgba(0,0,0,0.1);
+  bottom:           0;
   color:            white;
-  left:             20px;
+  padding:          1%;  
   position:         absolute;
-  width:            60%;
-}
-
-.highlight-slogan {
-  font-weight:      bold;
-  text-transform:   uppercase;
 }
 
 .description-txt {
-  font-size:        1.2em;
-  line-height:      1.5em;
+  font-size:        1.3em;
+  line-height:      1.6em;
 }
 
 .sidebox {
   background:       white;
-  border-radius:    10px 10px 0 0;
-  height:           calc(100% - 20px);
-  margin:           20px 20px 0 40px;
+  border-radius:    10px;
+  margin:           10% 10% 0 0;
   position:         absolute;
   right:            0;
+  max-width:        400px;
 }
 
 .tab {
+  border-bottom:    4px solid $sky-blue;
   float:            left;
   height:           60px;
   line-height:      60px;
@@ -65,11 +61,13 @@
 
 .tab-disabled {
   background:       $gray;
+  border-bottom:    4px solid $gray;
   border-radius:    0 10px 0 0;
+  color:            $dark-gray;
 }
 
 .paragraph-margin {
-  margin:           25px 0;
+  margin:           25px 0 15px;
 }
 
 .check-margin {
@@ -119,6 +117,11 @@
 
 .align-center {
   text-align:       center;
+}
+
+.disabled {
+  cursor:           default;
+  opacity:          0.4;
 }
 
 .box {
@@ -276,11 +279,10 @@
   }
 
   .sidebox {
-    border-radius:  10px;
-    height:         calc(100% - 40px);
-    left:           -20px;
+    margin:         10% auto;
+    left:           0;
     right:          0;
-    width:          calc(100% - 40px);
+    width:          100%;
   }
 
   .label-hour {
@@ -322,12 +324,16 @@
     display:        block;
   }
 
+  .description-box {
+    display:        none;
+  }
+
   .sidebox {
-    border-radius:  10px;
-    height:         calc(100% - 40px);
-    left:           -20px;
+    margin:         0 auto;
+    left:           0;
     right:          0;
-    width:          calc(100% - 40px);
+    top:            10%;
+    width:          100%;
   }
 
   .label-hour {
