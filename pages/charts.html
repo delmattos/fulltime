@@ -75,9 +75,17 @@
       </span>
     </div>
     <div class="row box align-center">
-      <div class="title-chart">Total de horas na semana</div>
+      <div class="title-chart">Total de horas por dia</div>
       <hr/>
       <canvas id="chart-days" width="600" height="250">
+          [Seu navegador não suporta canvas :()]
+      </canvas>
+    </div>
+    <br/>
+    <div class="row box align-center">
+      <div class="title-chart">Total de horas por semana</div>
+      <hr/>
+      <canvas id="chart-weeks" width="600" height="250">
           [Seu navegador não suporta canvas :()]
       </canvas>
     </div>
@@ -97,7 +105,7 @@
           [Seu navegador não suporta canvas :()]
       </canvas>
     </div>
-    
+    <br/>    
   </section>
 
   <!-- jQuery Plugin -->
@@ -130,6 +138,33 @@
                 'rgba(92,184,92,0.7)',
                 'rgba(92,184,92,0.7)',
                 'rgba(201,48,44,0.7)',
+                'rgba(92,184,92,0.7)',
+                'rgba(201,48,44,0.7)',
+            ],
+            colorsSequential: true,
+            textSize: 12,
+            labelsAbove: true,
+            variant: 'bar',
+            shadow: false,
+            backgroundGridVlines: false,
+            backgroundGridBorder: false,
+            noxaxis: true,
+            unitsPost: 'h',
+        }
+    }).grow();
+
+    new RGraph.Bar({
+        id: 'chart-weeks',
+        data: ['40.05','41.13','46,58','35,01'],
+        options: {
+            textAccessible: true,
+            labels: ['1ª Semana','2ª Semana','3ª Semana','4ª Semana'],
+            labelsAboveSize: 11,
+            labelsAboveUnitsPost: 'h ~',
+            labelsScaleDecimals: 2,
+            colors: [
+                'rgba(92,184,92,0.7)',
+                'rgba(92,184,92,0.7)',
                 'rgba(92,184,92,0.7)',
                 'rgba(201,48,44,0.7)',
             ],
