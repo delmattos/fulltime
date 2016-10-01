@@ -26,7 +26,7 @@
 
     </div>
 
-    <div class="col-xs-12 col-md-4 col-md-offset-8 sidebox">
+    <div class="col-xs-12 sidebox">
       <ul class="no-margin">
         <a href="#" class="tab-link">
           <li class="tab">
@@ -55,11 +55,18 @@
         <label for="exampleInputPassword1">Senha:</label>
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Somente letras e números, mínimo 6 caracteres" maxlength="8">
       </div>
-      <div class="checkbox check-margin">
-        <label>
-          <input type="checkbox"> Lembrar meus dados na próxima visita
-        </label>
+      
+      <div class="paragraph-margin">
+        <div class="onoffswitch pull-right">
+          <input type="checkbox" class="onoffswitch-checkbox" id="login-switch" checked>
+          <label class="onoffswitch-label" for="login-switch">
+            <span class="onoffswitch-inner"></span>
+            <span class="onoffswitch-switch"></span>
+          </label>
+        </div>
+        <div class="onoffswitch-label">Lembrar meus dados na próxima visita:</div>
       </div>
+
       <div class="paragraph-margin">
         <a href="pages/day.html" type="button" class="btn btn-primary btn-block">OK</a>
       </div>
