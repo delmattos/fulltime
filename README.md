@@ -4,7 +4,7 @@ Fulltime is a web application for worked hours control: insert yours hours for s
 
 Never get lost on the amount of hours you work! ;)
 
-## Development
+### Development
 
 Git clone and run the command: 
 
@@ -18,7 +18,7 @@ Then
   http://localhost:8040/
 ```
 
-## You will need:
+### You will need:
 - Node JS
 - SASS
 
@@ -26,13 +26,13 @@ Then
 This tool is still extremely ZETA VERSION, nothing really works (yet), only layout and navigation flows testing. Make yourself comfortable to help this thing come alive.
 
 
-<b>Em português, por favor!</b>
+### <b>Em português, por favor!</b>
 
 Fulltime é uma aplicação web para controle de horas trabalhadas: aponte seus horários de entrada, saída e almoço. Veja ainda gráficos comparativos e saldos diários, semanais e mensais. 
 
 Nunca mais fique perdido sobre a quantidade de horas que você trabalha! ;)
 
-## Como Usar
+### Como Usar
 
 Dê um git clone e digite o comando:
 
@@ -47,7 +47,7 @@ E acesse:
 ```
 
 
-## Dependências:
+### Dependências:
 - Node JS
 - SASS
 
