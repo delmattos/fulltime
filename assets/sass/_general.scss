@@ -81,6 +81,7 @@
 
 .title {
   color:            $sky-blue;
+  display:          inline-block;
   font-size:        1.2em;
   font-weight:      bold;
   line-height:      30px;
@@ -100,6 +101,7 @@
 .date-select {
   border-radius:    2px;
   padding:          0 5px;
+  float:            right;
 }
 
 .date-select:active,
@@ -271,6 +273,14 @@
     overflow-x:     hidden;
   }
 
+  canvas {
+    width:          45% !important;
+  }
+
+  span {
+    font-size:      10px !important;
+  }
+
   .brand-wrap {
     display:        none;
   }
@@ -290,6 +300,10 @@
     width:          100%;
   }
 
+  .date-select {
+    float:          none;
+}
+
   .label-hour {
     line-height:    20px;
   }
@@ -300,13 +314,13 @@
 
   .block-time {
     margin-left:    0;
-    width:          160px;
+    width:          135px;
   }
 
   .time, 
   .mins, 
   .meridian {
-    width:          50px;
+    width:          44px;
   }
 
   .table>thead>tr>th, 
@@ -321,6 +335,10 @@
 }
 
 @media screen and (min-width: 440px) and (max-width: 992px) {
+  canvas {
+    width:          90% !important;
+  }
+
   .brand-wrap {
     display:        none;
   }

@@ -143,34 +143,15 @@
   color:            white;
 }
 
-@media only screen and (max-width: 439px) {
-  #nav ul li {
-    border-radius:  5px;
-    height:         35px;
-    margin-top:     25px;
-    padding:        10px 0;
-    width:          35px;
-  }
-
-  .menu-icon {
-    font-size:      1.5em;
-    line-height:    10px;
-  }
-
-  .menu-link {
+@media only screen and (max-width: 479px) {
+  .brand-header {
     display:        none;
   }
 
-  .user-tag {
-    display:        none;
-  }
-}
-
-@media screen and (min-width: 440px) and (max-width: 629px) {
   #nav ul li {
     border-radius:  5px;
     height:         40px;
-    margin-top:     20px;
+    margin:         20px 10px 0 0;
     padding:        10px 0;
     width:          40px;
   }
@@ -189,17 +170,41 @@
   }
 }
 
-@media screen and (min-width: 630px) and (max-width: 999px) {
+@media screen and (min-width: 480px) and (max-width: 699px) {
   #nav ul li {
-    width:          60px;
+    border-radius:  5px;
+    height:         40px;
+    margin:         20px 10px 0 0;
+    padding:        10px 0;
+    width:          40px;
   }
 
   .menu-icon {
-    font-size:      1.5em;
+    font-size:      1.8em;
+    line-height:    18px;
   }
 
   .menu-link {
-    font-size:      0.8em;
+    display:        none;
+  }
+
+  .user-label {
+    display:        none;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #nav ul li {
+    padding-top:    20px;
+    width:          80px;
+  }
+
+  .menu-icon {
+    font-size:      2em;
+  }
+
+  .menu-link {
+    font-size:      0.9em;
     margin-top:     5px;
     text-align:     center;
   }
