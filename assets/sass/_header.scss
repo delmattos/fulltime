@@ -1,4 +1,5 @@
 .navbar {
+  border-radius:    0;
   height:           100px;
 }
 
@@ -86,7 +87,7 @@
 }
 
 #nav ul a li.active {
-  color:             $dark-gray;
+  color:            $dark-gray;
 }
 
 .menu-icon {

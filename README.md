@@ -23,7 +23,7 @@ Then
 - SASS
 
 
-This tool is still extremely ZETA VERSION, nothing really works (yet), only layout and navigation flows testing. Make yourself comfortable to help this thing come alive.
+This tool still is extremely ZETA VERSION, nothing really works (yet), only layout and navigation flow tests. Make yourself comfortable to help this thing come alive.
 
 
 ### <b>Em português, por favor!</b>
@@ -52,4 +52,4 @@ E acesse:
 - SASS
 
 
-Esta ferramenta está ainda em ZETA VERSION, nada realmente funciona (ainda), é apenas teste de layout e fluxo de navegação. Sinta-se a vontade para ajudar essa coisa tomar vida.
+Esta ferramenta está ainda em VERSÃO ZETA, ou seja, nada realmente funciona (ainda), é apenas teste de layout e fluxo de navegação. Sinta-se a vontade para ajudar essa coisa tomar vida.
