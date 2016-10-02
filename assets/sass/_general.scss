@@ -278,10 +278,12 @@
 
   canvas {
     width:          45% !important;
+    margin-left:    15px !important;
   }
 
   span {
     font-size:      10px !important;
+    margin-left:    15px;
   }
 
   .brand-wrap {
@@ -349,7 +351,13 @@
 
 @media screen and (min-width: 440px) and (max-width: 992px) {
   canvas {
-    width:          90% !important;
+    width:          70% !important;
+    margin-left:    15px !important;
+  }
+
+  span {
+    font-size:      10px !important;
+    margin-left:    15px;
   }
 
   .brand-wrap {
