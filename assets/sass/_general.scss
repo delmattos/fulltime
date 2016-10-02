@@ -114,6 +114,10 @@
   line-height:      30px;
 }
 
+.dropdown-menu .divider {
+  margin:           4px 0;
+}
+
 .align-right {
   text-align:       right
 }
@@ -145,18 +149,16 @@
 }
 
 .block-label {
-  display:          inline-block;
-  width:            200px;
+  float:            left;
 }
 
 .block-time {
-  display:          inline-block;
-  width:            190px;
-  margin-left:      25%;
+  margin:           auto;
+  text-align:       center;
+  width:            250px;
 }
 
 .block-buttons {
-  display:          inline-block;
   float:            right;
   margin-top:       5px;
 }
@@ -201,6 +203,7 @@
 
 .timepicker_wrap {
   background:       white;
+  margin-left:      62px;
   top:              52px;
   padding:          5px 0;
 }
@@ -302,7 +305,7 @@
 
   .date-select {
     float:          none;
-}
+  }
 
   .label-hour {
     line-height:    20px;
@@ -310,11 +313,17 @@
 
   .block-label {
     display:        block;
+    width:          100%;
   }
 
   .block-time {
-    margin-left:    0;
-    width:          135px;
+    text-align:     left;
+    margin:         0;
+  }
+
+  .timepicker_wrap {
+    margin-left:    -6px;
+    margin-top:     25px;
   }
 
   .time, 
@@ -365,10 +374,17 @@
 
   .block-label {
     display:        block;
+    width:          100%;
   }
 
   .block-time {
-    margin-left:    0;
+    text-align:     left;
+    margin:         0;
+  }
+
+  .timepicker_wrap {
+    margin-left:    -6px;
+    margin-top:     25px;
   }
 
   .table>thead>tr>th, 
