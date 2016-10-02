@@ -301,8 +301,13 @@
   }
 
   .date-select {
+    background:     white;
+    border:         1px solid $gray;
+    border-radius:  5px;
     float:          none;
-}
+    font-size:      1.1em;
+    padding:        0 10px;
+  }
 
   .label-hour {
     line-height:    20px;
