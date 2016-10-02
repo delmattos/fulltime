@@ -23,7 +23,7 @@ Then
 - SASS
 
 
-This tool is still extremely ZETA VERSION, nothing really works (yet), only layout and navigation flows testing. Make yourself comfortable to help this thing come alive.
+This tool still is extremely ZETA VERSION, nothing really works (yet), only layout and navigation flow tests. Make yourself comfortable to help this thing come alive.
 
 
 ### <b>Em português, por favor!</b>
