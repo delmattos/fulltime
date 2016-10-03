@@ -19,27 +19,24 @@
     <div class="brand-wrap"></div>
 
     <div class="description-box">
-     
-         <p class="description-txt">
-          Tenha controle total sobre o seu tempo de trabalho, aponte suas horas de entrada, saída e almoço. Veja também comparativos gráficos diários, semanais e mensais. Nunca mais fique perdido sobre a quantidade de horas trabalhadas. <i class="icon-wink"></i>
-        </p>
-
+      <p class="description-txt">
+        Tenha controle total sobre o seu tempo de trabalho, aponte suas horas de entrada, saída e almoço. Veja também comparativos gráficos diários, semanais e mensais. Nunca mais fique perdido sobre a quantidade de horas trabalhadas. <i class="icon-wink"></i>
+      </p>
     </div>
 
     <div class="col-xs-12 sidebox">
       <ul class="no-margin">
         <a href="#" class="tab-link">
           <li class="tab">
-            <span>Entrar</span>
+            Entrar
           </li>
         </a>
         <a href="#" class="tab-link">
           <li class="tab tab-disabled disabled" data-toggle="tooltip" data-placement="top" title="Em breve!">
-            <span>Criar conta</span>
+            Criar conta
           </li>
         </a>
       </ul>
-
       <div class="brand-collapse">
         <i class="icon-clock"></i>
         <logotype class="icon-fulltime"></logotype>
@@ -47,30 +44,30 @@
       <p class="paragraph-margin">
         Para entrar confirme seus dados de acesso
       </p>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email:</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ex: nome@empresa.com.br">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Senha:</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Somente letras e números, mín. 6 caracteres" maxlength="8">
-      </div>
-      
-      <div class="paragraph-margin">
-        <div class="onoffswitch pull-right">
-          <input type="checkbox" class="onoffswitch-checkbox" id="login-switch" checked>
-          <label class="onoffswitch-label" for="login-switch">
-            <span class="onoffswitch-inner"></span>
-            <span class="onoffswitch-switch"></span>
-          </label>
+      <form id="login-form" data-parsley-validate="" role="form" data-toggle="validator" data-disable="false" method="get" action="/pages/day.html">
+        <div class="form-group">
+          <label>Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Ex: nome@empresa.com.br" minlength="6" maxlenght="30" data-parsley-trigger="change" required="">
         </div>
-        <div class="onoffswitch-label">Lembrar meus dados na próxima visita:</div>
+        <div class="form-group">
+          <label>Senha:</label>
+          <input type="password" class="form-control" id="password" placeholder="Somente letras e números" minlength="6" maxlength="8" data-parsley-trigger="change" required="">
+        </div>        
+        <div class="paragraph-margin">
+          <div class="onoffswitch pull-right">
+            <input type="checkbox" class="onoffswitch-checkbox" id="login-switch" checked>
+            <label class="onoffswitch-label" for="login-switch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+            </label>
+          </div>
+          <div class="onoffswitch-label">Lembrar meus dados na próxima visita:</div>
+        </div>
+        <div class="paragraph-margin">
+          <input type="submit" class="btn btn-primary btn-block" value="OK"/>
+        </div>
       </div>
-
-      <div class="paragraph-margin">
-        <a href="pages/day.html" type="button" class="btn btn-primary btn-block">OK</a>
-      </div>
-    </div>
+    </form>
 
     <!-- jQuery Plugin -->
     <script src="assets/js/jquery-3.1.1.min.js"></script>
@@ -82,7 +79,11 @@
     <script src="assets/js/custom.js"></script>
 
     <!-- TimePicki JS -->
-    <script src="assets/js/timepicki.js"></script>
+    <script src="../assets/js/timepicki.js"></script>
+
+    <!-- Form Validator JS -->
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/parsley.min.js"></script>
 </body>
 
 </html>
