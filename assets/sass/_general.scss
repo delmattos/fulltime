@@ -9,7 +9,7 @@
 .brand-wrap {
   background:       url(../images/logo_fulltime.svg) no-repeat center center;
   height:           380px;
-  margin-top:       10%;
+  margin-top:       11%;
   position:         absolute;
   width:            60%;
 }
@@ -195,9 +195,8 @@
 }
 
 .hourpicker:focus {
-  border-color:     #66afe9;
-  outline:          0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+  border-color:     #66afe9;
   box-shadow:       inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
 }
 
@@ -411,7 +410,7 @@
 }
 
 @media screen and (min-width: 1600px) {
-.container {
+  .container {
     width:          1500px;
   }
 }
