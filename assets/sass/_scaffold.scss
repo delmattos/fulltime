@@ -53,6 +53,15 @@ textarea {
   font-size:        0.9em;
 }
 
+.table>thead>tr>th, 
+.table>thead>tr>td, 
+.table>tbody>tr>th, 
+.table>tbody>tr>td, 
+.table>tfoot>tr>th, 
+.table>tfoot>tr>td {
+  font-size:        1.15em;
+}
+
 .table>tbody>tr:hover,
 .table-striped>tbody>tr:hover,
  {
