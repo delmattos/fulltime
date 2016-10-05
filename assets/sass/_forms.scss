@@ -16,12 +16,18 @@ li.parsley-length {
   text-align:                 right;
 }
 
-.has-error .form-control,
-.has-error .form-control:focus,
 input.parsley-error, 
 select.parsley-error, 
 textarea.parsley-error {
   background-color:           $peach-pink;
-  border-color:               #a94442;
+  border-color:               $cherry;
   color:                      $deep-tomato;
+}
+
+input.parsley-error:focus,
+select.parsley-error:focus,
+textarea.parsley-error:focus {
+  -webkit-box-shadow:         inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #ce8483;
+  border-color:               $cherry;
+  box-shadow:                 inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #ce8483;
 }
