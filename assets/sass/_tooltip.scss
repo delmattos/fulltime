@@ -1,0 +1,19 @@
+.tooltip-inner {
+  background-color: $dark-gray;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: $dark-gray;
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: $dark-gray;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: $dark-gray;
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: $dark-gray;
+}

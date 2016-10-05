@@ -96,18 +96,18 @@
         </ul>
       </div>
     </div>
-
     <div class="row box">
       <div class="line">
         <div class="block-label">
           <label class="label-hour">Entrada:</label>
         </div>
         <div class="block-buttons">
-          <button class="btn btn-warning" type="submit">Editar</button>
-          <button class="btn btn-danger" type="submit">Excluir</button>
+          <button id="edit-start" class="btn btn-warning" type="submit">Editar</button>
+          <button id="delete-start" class="btn btn-danger" type="submit">Excluir</button>
+          <button id="save-start" class="btn btn-success" type="submit" style="display:none">Salvar</button>
         </div>
         <div class="block-time">
-          <input id='start-time' type='text' name='timepicker' placeholder="00:00 AM" class="hourpicker" value="09:05 AM" disabled/>
+          <input id='start-time' type='text'  placeholder="00:00 AM" class="hourpicker" value="09:05 AM" required disabled/>
         </div>       
       </div>
       <div class="line">
@@ -115,11 +115,12 @@
           <label class="label-hour">Parada p/ almoço:</label>
         </div>
         <div class="block-buttons">
-          <button class="btn btn-warning" type="submit">Editar</button>
-          <button class="btn btn-danger" type="submit">Excluir</button>
+          <button id="edit-lunch" class="btn btn-warning" type="submit">Editar</button>
+          <button id="delete-lunch" class="btn btn-danger" type="submit">Excluir</button>
+          <button id="save-lunch" class="btn btn-success" type="submit" style="display:none">Salvar</button>
         </div>
         <div class="block-time">
-          <input id='lunch-time' type='text' name='timepicker' placeholder="00:00 AM" class="hourpicker" value="12:06 PM" disabled/>
+          <input id='lunch-time' type='text' name='timepicker' placeholder="00:00 AM" class="hourpicker" value="12:06 PM" required disabled/>
         </div>  
       </div>
 
@@ -128,11 +129,12 @@
           <label class="label-hour">Retorno do almoço:</label>
         </div>
         <div class="block-buttons">
-          <button class="btn btn-warning" type="submit">Editar</button>
-          <button class="btn btn-danger" type="submit">Excluir</button>
+          <button id="edit-return" class="btn btn-warning" type="submit">Editar</button>
+          <button id="delete-return" class="btn btn-danger" type="submit">Excluir</button>
+          <button id="save-return" class="btn btn-success" type="submit" style="display:none">Salvar</button>
         </div>
         <div class="block-time">
-          <input id='lunch-return' type='text' name='timepicker' placeholder="00:00 AM" class="hourpicker" value="13:15 PM" disabled/>
+          <input id='lunch-return' type='text' name='timepicker' placeholder="00:00 AM" class="hourpicker" value="13:15 PM" required disabled/>
         </div>
       </div>
 
@@ -141,10 +143,12 @@
           <label class="label-hour">Saída</label>
         </div>
         <div class="block-buttons">
-          <button class="btn btn-success" type="submit">Salvar</button>
+          <button id="edit-exit" class="btn btn-warning" type="submit" style="display:none">Editar</button>
+          <button id="delete-exit" class="btn btn-danger" type="submit" style="display:none">Excluir</button>
+          <button id="save-exit" class="btn btn-success" type="submit">Salvar</button>
         </div>
         <div class="block-time">
-          <input id='exit-time' type='text' name='timepicker' placeholder="00:00 AM" class="hourpicker" />
+          <input id='exit-time' type='text' name='timepicker' placeholder="00:00 AM" class="hourpicker" required/>
         </div>
       </div>
     </div>

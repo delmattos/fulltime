@@ -156,7 +156,7 @@
 .block-time {
   margin:           auto;
   text-align:       center;
-  width:            250px;
+  width:            124px;
 }
 
 .block-buttons {
@@ -203,9 +203,9 @@
 
 .timepicker_wrap {
   background:       white;
-  margin-left:      62px;
-  top:              52px;
   padding:          5px 0;
+  top:              52px;
+  width:            182px;
 }
 
 .time, 
@@ -231,6 +231,11 @@
 
 .btn-primary:hover {
   background:       $blue;
+}
+
+html input[disabled] {
+  background:       $gray;
+  cursor:           default;
 }
 
 .table {
