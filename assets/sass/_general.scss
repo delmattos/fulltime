@@ -107,11 +107,12 @@
 .date-select:active,
 .date-select:focus,
 .date-select:hover {
-  background:       rgba(0,0,0,0.1); 
+  background:       rgba(0,0,0,0.1);
 }
 
 .date-dropdown {
   line-height:      30px;
+  padding:          1.1em 0;
 }
 
 .dropdown-menu .divider {
@@ -304,12 +305,17 @@
     width:          300px;
   }
 
+  .date-dropdown {
+    padding:        1.1em 8em 1.1em 0;
+  }
+
   .date-select {
     background:     white;
     border:         1px solid $gray;
     border-radius:  5px;
     float:          none;
     padding:        0 10px;
+    width: 100%;
   }
 
   .label-hour {
