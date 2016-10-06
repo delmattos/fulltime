@@ -42,8 +42,17 @@
 .icon-calendar-day:before {
   content: "\e903";
 }
+.icon-pencil:before {
+  content: "\e906";
+}
 .icon-user:before {
   content: "\e971";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-bin:before {
+  content: "\e9ad";
 }
 .icon-happy:before {
   content: "\e9df";
@@ -53,6 +62,12 @@
 }
 .icon-grin:before {
   content: "\e9e9";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-check:before {
+  content: "\ea11";
 }
 .icon-arrow-up-left:before {
   content: "\ea31";
@@ -78,5 +93,39 @@
 .icon-arrow-left:before {
   content: "\ea38";
 }
-
-
+.icon-move-up:before {
+  content: "\ea46";
+}
+.icon-move-down:before {
+  content: "\ea47";
+}
+.icon-sort-alpha-asc:before {
+  content: "\ea48";
+}
+.icon-sort-alpha-desc:before {
+  content: "\ea49";
+}
+.icon-sort-numeric-asc:before {
+  content: "\ea4a";
+}
+.icon-sort-numberic-desc:before {
+  content: "\ea4b";
+}
+.icon-sort-amount-asc:before {
+  content: "\ea4c";
+}
+.icon-sort-amount-desc:before {
+  content: "\ea4d";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+.icon-checkbox-unchecked:before {
+  content: "\ea53";
+}
+.icon-radio-checked:before {
+  content: "\ea54";
+}
+.icon-radio-unchecked:before {
+  content: "\ea56";
+}

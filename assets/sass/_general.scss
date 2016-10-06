@@ -149,6 +149,11 @@
   margin:           10px 0;
 }
 
+.text-button {
+  float:            right;
+  padding-left:     5px;
+}
+
 .block-label {
   float:            left;
 }
@@ -217,25 +222,6 @@
 
 .timepicki-input {
   font-weight:      500;
-}
-
-.btn {
-  height:           40px;
-  padding:          10px;
-}
-
-.btn-primary {
-  background:       $sky-blue;
-  border:           0 solid $sky-blue;
-}
-
-.btn-primary:hover {
-  background:       $blue;
-}
-
-html input[disabled] {
-  background:       $gray;
-  cursor:           default;
 }
 
 .table {
@@ -325,6 +311,10 @@ html input[disabled] {
 
   .label-hour {
     line-height:    20px;
+  }
+
+  .text-button {
+    display:        none;
   }
 
   .block-label {

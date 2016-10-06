@@ -338,6 +338,7 @@
 					// next time the picker is opened
 					ele.attr('data-timepicki-tim', tim);
 					ele.attr('data-timepicki-mini', mini);
+					ele.attr('value', tim + ":" + mini + " " + meri);
 					
 					if(settings.show_meridian){
 						ele.attr('data-timepicki-meri', meri);

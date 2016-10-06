@@ -1,15 +1,12 @@
 $(function() {
+  $('[data-toggle="tooltip"]').tooltip();
 
-
-  $('#start-time').timepicki();
-  $('#lunch-time').timepicki();
-  $('#lunch-return').timepicki();
-  $('#exit-time').timepicki({
+  $('.hourpicker').timepicki({
     on_change: function(e){
-      $('#save-exit').attr('disabled', $(e).val() === '');
+      $('.btn-success-stroke').attr('disabled', $(e).val() === '');
     }
   });
-  $('[data-toggle="tooltip"]').tooltip();
+  
 });
 
 jQuery(document).ready(function($) {
@@ -36,6 +33,15 @@ $('#edit-start').on('click', function() {
   $('#save-start').attr('disabled', $('#start-time').val() === '');
 });
 
+$('#delete-start').on('click', function() {
+  $('#start-time').prop('disabled',false);
+  $('#start-time').val('');
+  $('#edit-start').css('display','none');
+  $('#delete-start').css('display','none');
+  $('#save-start').css('display','inline-block');
+  $('#save-start').attr('disabled', $('#start-time').val() === '');
+});
+
 $('#save-start').on('click', function() {
   $('#start-time').prop('disabled',true);
   $('#edit-start').css('display','inline-block');
@@ -45,6 +51,15 @@ $('#save-start').on('click', function() {
 
 $('#edit-lunch').on('click', function() {
   $('#lunch-time').prop('disabled',false);
+  $('#edit-lunch').css('display','none');
+  $('#delete-lunch').css('display','none');
+  $('#save-lunch').css('display','inline-block');
+  $('#save-lunch').attr('disabled', $('#lunch-time').val() === '');
+});
+
+$('#delete-lunch').on('click', function() {
+  $('#lunch-time').prop('disabled',false);
+  $('#lunch-time').val('');
   $('#edit-lunch').css('display','none');
   $('#delete-lunch').css('display','none');
   $('#save-lunch').css('display','inline-block');

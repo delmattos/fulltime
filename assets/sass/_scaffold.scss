@@ -53,6 +53,11 @@ textarea {
   font-size:        0.9em;
 }
 
+html input[disabled] {
+  background:       $gray;
+  cursor:           default;
+}
+
 .table>thead>tr>th, 
 .table>thead>tr>td, 
 .table>tbody>tr>th, 
