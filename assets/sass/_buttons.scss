@@ -3,7 +3,7 @@
 }
 
 .btn {
-  border-radius:    10px;
+  border-radius:    8px;
   cursor:           pointer;
   cursor:           hand;
   height:           40px;
@@ -18,48 +18,65 @@
   background:       $blue;
 }
 
-.btn-danger-stroke {
+.btn-danger-stroke,
+.btn-danger-stroke:focus {
   background:       white;
   border:           2px solid $tomato;
   color:            $tomato;
+  font-size:        0.9em;
   padding:          8px 12px;
   text-transform:   uppercase;
 }
 
 .btn-danger-stroke:active,
-.btn-danger-stroke:focus,
 .btn-danger-stroke:hover {
   background:       $tomato;
   color:            white;
 }
 
-.btn-warning-stroke {
+.btn-warning-stroke,
+.btn-warning-stroke:focus {
   background:       white;
   border:           2px solid $bumblebee;
   color:            $bumblebee;
+  font-size:        0.9em;
   margin-right:     10px;
   padding:          8px 12px;
   text-transform:   uppercase;
 }
 
 .btn-warning-stroke:active,
-.btn-warning-stroke:focus,
 .btn-warning-stroke:hover {
   background:       $bumblebee;
   color:            white;
 }
 
-.btn-success-stroke {
+.btn-success-stroke,
+.btn-success-stroke:focus {
   background:       white;
   border:           2px solid $esmerald;
   color:            $esmerald;
+  font-size:        0.9em;
   padding:          8px 12px;
   text-transform:   uppercase;
 }
 
 .btn-success-stroke:active,
-.btn-warning-stroke:focus,
 .btn-success-stroke:hover {
   background:       $esmerald;
   color:            white;
+}
+
+@media only screen and (max-width: 479px) {
+  .btn-danger-stroke,
+  .btn-warning-stroke,
+  .btn-success-stroke,
+  .btn-danger-stroke:active,
+  .btn-warning-stroke:active,
+  .btn-success-stroke:active,
+  .btn-danger-stroke:focus,
+  .btn-warning-stroke:focus,
+  .btn-success-stroke:focus {
+    font-size:      1.2em;
+  }
 }

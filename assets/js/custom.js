@@ -5,8 +5,7 @@ $(function() {
     on_change: function(e){
       $('.btn-success-stroke').attr('disabled', $(e).val() === '');
     }
-  });
-  
+  });  
 });
 
 jQuery(document).ready(function($) {
@@ -75,6 +74,15 @@ $('#save-lunch').on('click', function() {
 
 $('#edit-return').on('click', function() {
   $('#lunch-return').prop('disabled',false);
+  $('#edit-return').css('display','none');
+  $('#delete-return').css('display','none');
+  $('#save-return').css('display','inline-block');
+  $('#save-return').attr('disabled', $('#lunch-return').val() === '');
+});
+
+$('#delete-return').on('click', function() {
+  $('#lunch-return').prop('disabled',false);
+  $('#lunch-return').val('');
   $('#edit-return').css('display','none');
   $('#delete-return').css('display','none');
   $('#save-return').css('display','inline-block');
