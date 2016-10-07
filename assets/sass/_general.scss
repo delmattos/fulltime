@@ -263,6 +263,10 @@
   margin:           0 -15px;
 }
 
+#weekday, #date {
+  font-weight:      normal;
+}
+
 @media only screen and (max-width: 439px) {
   body {
     overflow-x:     hidden;
@@ -270,12 +274,16 @@
 
   canvas {
     width:          45% !important;
-    margin-left:    15px !important;
+    margin-left:    12px !important;
   }
 
   span {
-    font-size:      10px !important;
-    margin-left:    15px;
+    font-size:      9px !important;
+    margin-left:    12px;
+  }
+
+  .rgraph_domtext_wrapper {
+    height:         130px !important;
   }
 
   .brand-wrap {
@@ -297,6 +305,10 @@
     width:          300px;
   }
 
+  .date-dropdown {
+    padding:        1.1em 5em 1em 0; 
+  }
+
   .date-select {
     background:     white;
     border:         1px solid $gray;
@@ -304,6 +316,12 @@
     float:          none;
     padding:        0 10px;
     width: 100%;
+  }
+
+  .date-select:active,
+  .date-select:focus,
+  .date-select:hover {
+    background:     white;
   }
 
   .label-hour {
