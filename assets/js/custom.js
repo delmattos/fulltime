@@ -130,5 +130,3 @@ $(document).ready(function() {
     $('#save-exit').prop('disabled',true);
   });
 });
-
-
