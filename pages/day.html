@@ -39,7 +39,7 @@
       </div>
       <menu id="nav">
         <ul>
-          <a href="#">
+          <a href="day.html">
             <li class="active">            
               <i class="icon-calendar-day menu-icon"></i>
               <div class="menu-link">Dia</div>
@@ -102,37 +102,38 @@
           <label class="label-hour">Entrada:</label>
         </div>
         <div class="block-buttons">
-          <button id="edit-start" class="btn btn-warning-stroke">
-            <i class="icon-pencil"></i>
-            <div class="text-button">Editar</div>
-          </button>
           <button id="delete-start" class="btn btn-danger-stroke">
             <i class="icon-bin"></i>
             <div class="text-button">Excluir</div>
           </button>
-          <button id="save-start" class="btn btn-success-stroke" disabled style="display:none">
+          <button id="edit-start" class="btn btn-warning-stroke">
+            <i class="icon-pencil"></i>
+            <div class="text-button">Editar</div>
+          </button>
+          <button id="save-start" class="btn btn-success-stroke">
             <i class="icon-checkmark"></i>
             <div class="text-button">Salvar</div>
           </button>
         </div>
         <div class="block-time">
           <input id='start-time' type='text' name="timepicker" title="Horário de entrada" placeholder="00:00 AM" class="hourpicker" required disabled data-timepicki-tim="09" data-timepicki-mini="15" value="09:15 AM" data-timepicki-meri="AM" />
-        </div>       
+        </div>
       </div>
+      <hr/>
       <div class="line">
         <div class="block-label">
-          <label class="label-hour">Parada p/ almoço:</label>
+          <label class="label-hour">Parada para almoço:</label>
         </div>
         <div class="block-buttons">
-          <button id="edit-lunch" class="btn btn-warning-stroke">
-            <i class="icon-pencil"></i>
-            <div class="text-button">Editar</div>
-          </button>
           <button id="delete-lunch" class="btn btn-danger-stroke">
             <i class="icon-bin"></i>
             <div class="text-button">Excluir</div>
           </button>
-          <button id="save-lunch" class="btn btn-success-stroke" disabled style="display:none">
+          <button id="edit-lunch" class="btn btn-warning-stroke">
+            <i class="icon-pencil"></i>
+            <div class="text-button">Editar</div>
+          </button>
+          <button id="save-lunch" class="btn btn-success-stroke" disabled>
             <i class="icon-checkmark"></i>
             <div class="text-button">Salvar</div>
           </button>
@@ -141,42 +142,44 @@
           <input id='lunch-time' type='text' name='timepicker' title="Horário de parada para o almoço" placeholder="00:00 AM" class="hourpicker" required disabled data-timepicki-tim="12" data-timepicki-mini="06" value="12:06 PM" data-timepicki-meri="PM"/>
         </div>  
       </div>
+      <hr/>
       <div class="line">
         <div class="block-label">
           <label class="label-hour">Retorno do almoço:</label>
         </div>
         <div class="block-buttons">
-          <button id="edit-return" class="btn btn-warning-stroke">
-            <i class="icon-pencil"></i>
-            <div class="text-button">Editar</div>
-          </button>
-          <button id="delete-return" class="btn btn-danger-stroke">
+          <button id="delete-return" class="btn btn-danger-stroke" title="Deletar horário de retorno">
             <i class="icon-bin"></i>
             <div class="text-button">Excluir</div>
           </button>
-          <button id="save-return" class="btn btn-success-stroke" disabled style="display:none">
+          <button id="edit-return" class="btn btn-warning-stroke" title="Editar horário de retorno">
+            <i class="icon-pencil"></i>
+            <div class="text-button">Editar</div>
+          </button>
+          <button id="save-return" class="btn btn-success-stroke" title="Salvar horário de retorno">
             <i class="icon-checkmark"></i>
             <div class="text-button">Salvar</div>
           </button>
         </div>
         <div class="block-time">
-          <input id='lunch-return' type='text' name='timepicker' title="Horário de retorno do almoço" placeholder="00:00 AM" class="hourpicker" required disabled data-timepicki-tim="13" data-timepicki-mini="15" value="13:15 PM" data-timepicki-meri="PM"/>
+          <input id='lunch-return' type='text' name='timepicker' title="Horário de retorno do almoço" placeholder="00:00 AM" class="hourpicker" required disabled data-timepicki-tim="01" data-timepicki-mini="15" value="01:15 PM" data-timepicki-meri="PM"/>
         </div>
       </div>
+      <hr/>
       <div class="line">
         <div class="block-label">
           <label class="label-hour">Saída</label>
         </div>
         <div class="block-buttons">
-          <button id="edit-exit" class="btn btn-warning-stroke" style="display:none">
-            <i class="icon-pencil"></i>
-            <div class="text-button">Editar</div>
-          </button>
-          <button id="delete-exit" class="btn btn-danger-stroke" style="display:none">
+          <button id="delete-exit" class="btn btn-danger-stroke">
             <i class="icon-bin"></i>
             <div class="text-button">Excluir</div>
           </button>
-          <button id="save-exit" class="btn btn-success-stroke" disabled>
+          <button id="edit-exit" class="btn btn-warning-stroke">
+            <i class="icon-pencil"></i>
+            <div class="text-button">Editar</div>
+          </button>
+          <button id="save-exit" class="btn btn-success-stroke">
             <i class="icon-checkmark"></i>
             <div class="text-button">Salvar</div>
           </button>

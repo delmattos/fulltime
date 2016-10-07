@@ -7,6 +7,7 @@
   cursor:           pointer;
   cursor:           hand;
   height:           40px;
+  transition:       0.3s;
 }
 
 .btn-primary {
@@ -24,6 +25,7 @@
   border:           2px solid $tomato;
   color:            $tomato;
   font-size:        0.9em;
+  margin-right:     5px;
   padding:          8px 12px;
   text-transform:   uppercase;
 }
@@ -40,12 +42,12 @@
   border:           2px solid $bumblebee;
   color:            $bumblebee;
   font-size:        0.9em;
-  margin-right:     10px;
+  margin-right:     5px;
   padding:          8px 12px;
   text-transform:   uppercase;
 }
 
-.btn-warning-stroke:active,
+.btn-warning-stroke:active {}
 .btn-warning-stroke:hover {
   background:       $bumblebee;
   color:            white;
@@ -78,5 +80,6 @@
   .btn-warning-stroke:focus,
   .btn-success-stroke:focus {
     font-size:      1.2em;
+    padding:        8px 10px;
   }
 }

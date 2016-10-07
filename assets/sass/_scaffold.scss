@@ -33,8 +33,9 @@ li {
 hr {
   border:           0;
   border-bottom:    1px solid rgba(0,0,0,0.08);
-  border-top:       1px solid rgba(0,0,0,0.08);
+  border-top:       1px solid rgba(0,0,0,0.0);
   height:           0;
+  margin:           10px 0;
 }
 
 tr {
