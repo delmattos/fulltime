@@ -111,6 +111,7 @@
 }
 
 .date-dropdown {
+  color:            $dark-gray;
   line-height:      30px;
   padding:          1.1em 0;
 }
@@ -294,10 +295,6 @@
     left:           0;
     right:          0;
     width:          300px;
-  }
-
-  .date-dropdown {
-    padding:        1.1em 6.5em 1.1em 0;
   }
 
   .date-select {

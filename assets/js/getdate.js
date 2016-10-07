@@ -17,9 +17,9 @@ Month[9]="Outubro";
 Month[10]="Novembro";
 Month[11]="Dezembro";
 
-var MonthName = Month[d.getMonth()]; 
+var MonthName = Month[d.getMonth()];
 
-var today = day +" de "+MonthName+" de "+year; 
+var today = day +" de "+MonthName+" de "+year;
 
 var t=d.toLocaleTimeString();
 

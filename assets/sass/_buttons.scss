@@ -20,7 +20,8 @@
 }
 
 .btn-danger-stroke,
-.btn-danger-stroke:focus {
+.btn-danger-stroke:focus,
+.btn-danger-stroke[disabled]:hover {
   background:       white;
   border:           2px solid $tomato;
   color:            $tomato;
@@ -37,7 +38,8 @@
 }
 
 .btn-warning-stroke,
-.btn-warning-stroke:focus {
+.btn-warning-stroke:focus,
+.btn-warning-stroke[disabled]:hover {
   background:       white;
   border:           2px solid $bumblebee;
   color:            $bumblebee;
@@ -54,11 +56,12 @@
 }
 
 .btn-success-stroke,
-.btn-success-stroke:focus {
+.btn-success-stroke:focus,
+.btn-success-stroke[disabled]:hover {
   background:       white;
   border:           2px solid $esmerald;
   color:            $esmerald;
-  font-size:        0.9em;
+  font-size:        1em;
   padding:          8px 12px;
   text-transform:   uppercase;
 }
@@ -67,19 +70,4 @@
 .btn-success-stroke:hover {
   background:       $esmerald;
   color:            white;
-}
-
-@media only screen and (max-width: 479px) {
-  .btn-danger-stroke,
-  .btn-warning-stroke,
-  .btn-success-stroke,
-  .btn-danger-stroke:active,
-  .btn-warning-stroke:active,
-  .btn-success-stroke:active,
-  .btn-danger-stroke:focus,
-  .btn-warning-stroke:focus,
-  .btn-success-stroke:focus {
-    font-size:      1.2em;
-    padding:        8px 10px;
-  }
 }
