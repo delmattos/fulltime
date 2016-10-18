@@ -1,73 +1,73 @@
 .btn[disabled] {
-  opacity:          0.3;
+  opacity:                  0.3;
 }
 
 .btn {
-  border-radius:    8px;
-  cursor:           pointer;
-  cursor:           hand;
-  height:           40px;
-  transition:       0.3s;
+  border-radius:            8px;
+  cursor:                   pointer;
+  cursor:                   hand;
+  height:                   40px;
+  transition:               0.3s;
 }
 
 .btn-primary {
-  background:       $sky-blue;
-  border:           0 solid $sky-blue;
+  background:               $sky-blue;
+  border:                   0 solid $sky-blue;
 }
 
 .btn-primary:hover {
-  background:       $blue;
+  background:               $blue;
 }
 
 .btn-danger-stroke,
 .btn-danger-stroke:focus,
 .btn-danger-stroke[disabled]:hover {
-  background:       white;
-  border:           2px solid $tomato;
-  color:            $tomato;
-  font-size:        0.9em;
-  margin-right:     5px;
-  padding:          8px 12px;
-  text-transform:   uppercase;
+  background:               white;
+  border:                   2px solid $tomato;
+  color:                    $tomato;
+  font-size:                0.9em;
+  margin-right:             5px;
+  padding:                  8px 12px;
+  text-transform:           uppercase;
 }
 
 .btn-danger-stroke:active,
 .btn-danger-stroke:hover {
-  background:       $tomato;
-  color:            white;
+  background:               $tomato;
+  color:                    white;
 }
 
 .btn-warning-stroke,
 .btn-warning-stroke:focus,
 .btn-warning-stroke[disabled]:hover {
-  background:       white;
-  border:           2px solid $bumblebee;
-  color:            $bumblebee;
-  font-size:        0.9em;
-  margin-right:     5px;
-  padding:          8px 12px;
-  text-transform:   uppercase;
+  background:               white;
+  border:                   2px solid $bumblebee;
+  color:                    $bumblebee;
+  font-size:                0.9em;
+  margin-right:             5px;
+  padding:                  8px 12px;
+  text-transform:           uppercase;
 }
 
 .btn-warning-stroke:active {}
 .btn-warning-stroke:hover {
-  background:       $bumblebee;
-  color:            white;
+  background:               $bumblebee;
+  color:                    white;
 }
 
 .btn-success-stroke,
 .btn-success-stroke:focus,
 .btn-success-stroke[disabled]:hover {
-  background:       white;
-  border:           2px solid $esmerald;
-  color:            $esmerald;
-  font-size:        1em;
-  padding:          8px 12px;
-  text-transform:   uppercase;
+  background:               white;
+  border:                   2px solid $esmerald;
+  color:                    $esmerald;
+  font-size:                1em;
+  padding:                  8px 12px;
+  text-transform:           uppercase;
 }
 
 .btn-success-stroke:active,
 .btn-success-stroke:hover {
-  background:       $esmerald;
-  color:            white;
+  background:               $esmerald;
+  color:                    white;
 }

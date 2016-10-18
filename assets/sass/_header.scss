@@ -1,229 +1,229 @@
 .navbar {
-  border-radius:    0;
-  height:           100px;
+  border-radius:            0;
+  height:                   100px;
 }
 
 .navbar-default {
-  background:       $sky-blue;
-  background:       -moz-linear-gradient(45deg, $sky-blue 0%, $sea-green 100%);
-  background:       -webkit-linear-gradient(45deg, $sky-blue 0%, $sea-green 100%);
-  background:       linear-gradient(45deg, $sky-blue 0%, $sea-green 100%);
-  border:           0 #FFF solid;
-  filter:           progid:DXImageTransform.Microsoft.gradient( startColorstr='$sky-blue', endColorstr='$sea-green',GradientType=1 );
+  background:               $sky-blue;
+  background:               -moz-linear-gradient(45deg, $sky-blue 0%, $sea-green 100%);
+  background:               -webkit-linear-gradient(45deg, $sky-blue 0%, $sea-green 100%);
+  background:               linear-gradient(45deg, $sky-blue 0%, $sea-green 100%);
+  border:                   0 #FFF solid;
+  filter:                   progid:DXImageTransform.Microsoft.gradient( startColorstr='$sky-blue', endColorstr='$sea-green',GradientType=1 );
 }
 
 .brand-header {
-  color:            white;
-  font-size:        2.3em;
-  float:            left;
-  padding:          35px 10px 35px 0;
+  color:                    white;
+  font-size:                2.3em;
+  float:                    left;
+  padding:                  35px 10px 35px 0;
 }
 
 .brand-icon {
-  float:            left;
-  font-size:        1.2em;
-  margin-right:     3px; 
-  margin-top:       -2px
+  float:                   left;
+  font-size:               1.2em;
+  margin-right:            3px; 
+  margin-top:              -2px
 }
 
 .brand-header:active,
 .brand-header:focus,
 .brand-header:hover {
-  color:            $gray;
+  color:                    $gray;
 }
 
 #nav {
-  margin:           0 auto;
-  padding-left:     0;
-  width:            420px;
+  margin:                   0 auto;
+  padding-left:             0;
+  width:                    420px;
 }
 
 #nav ul {
-  list-style:       none;
-  margin-top:       10px;
+  list-style:               none;
+  margin-top:               10px;
 }
 
 #nav ul li {
-  border-radius:    5px 5px 0 0;
-  cursor:           pointer;
-  cursor:           hand;
-  display:          inline-block;
-  height:           90px;
-  padding-top:      15px;
-  text-align:       center;
-  transition:       0.3s;
-  width:            100px;
+  border-radius:             5px 5px 0 0;
+  cursor:                    pointer;
+  cursor:                    hand;
+  display:                   inline-block;
+  height:                    90px;
+  padding-top:               15px;
+  text-align:                center;
+  transition:                0.3s;
+  width:                     100px;
 }
 
 #nav ul li:hover {
-  background:       rgba(0,0,0,0.1);
+  background:               rgba(0,0,0,0.1);
 }
 
 #nav ul li:active {
-  background:       rgba(0,0,0,0.3);
+  background:               rgba(0,0,0,0.3);
 }
 
 #nav ul a {
-  color:            white;
-  transition:       0.3s;
+  color:                    white;
+  transition:               0.3s;
 }
 
 #nav ul a:active,
 #nav ul a:focus,
 #nav ul a:hover {
-  text-decoration:  none;
+  text-decoration:          none;
 }
 
 #nav ul li.active {
-  background:       $cloud;
-  background:       -moz-linear-gradient(top, white 0%, $cloud 100%);
-  background:       -webkit-linear-gradient(top, white 0%, $cloud 100%);
-  background:       linear-gradient(top, white 0%, $cloud 100%);
-  filter:           progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='$cloud', GradientType=1 );
+  background:               $cloud;
+  background:               -moz-linear-gradient(top, white 0%, $cloud 100%);
+  background:               -webkit-linear-gradient(top, white 0%, $cloud 100%);
+  background:               linear-gradient(top, white 0%, $cloud 100%);
+  filter:                   progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='$cloud', GradientType=1 );
 }
 
 #nav ul li.active i {
-  color:            $sky-blue;
+  color:                    $sky-blue;
 }
 
 #nav ul a li.active {
-  color:            $dark-gray;
+  color:                    $dark-gray;
 }
 
 .menu-icon {
-  color:            white;
-  font-size:        2.2em;
+  color:                    white;
+  font-size:                2.2em;
 }
 
 .menu-link {
-  font-size:        1.1em;
-  margin-top:       5px;
-  text-align:       center;
+  font-size:                1.1em;
+  margin-top:               5px;
+  text-align:               center;
 }
 
 .user-tag {
-  border:           2px solid white;
-  border-radius:    20px;
-  float:            right;
-  font-size:        0.9em;
-  margin:           33px 0 30px 20px;
-  padding:          5px 0;
-  transition:       all .15s ease 0s;
+  border:                   2px solid white;
+  border-radius:            20px;
+  float:                    right;
+  font-size:                0.9em;
+  margin:                   33px 0 30px 20px;
+  padding:                  5px 0;
+  transition:               all .15s ease 0s;
 }
 
 .user-tag:hover {
-  background:       rgba(0,0,0,0.1);
+  background:               rgba(0,0,0,0.1);
 }
 
 .user-tag-link {
-  padding:          15px;
+  padding:                  15px;
 }
 
 .user-tag > a {
-  color:            white;
+  color:                    white;
 }
 
 .user-tag > a:active,
 .user-tag > a:focus,
 .user-tag > a:hover,
 .user-tag > a:visited {
-  text-decoration:  none;
+  text-decoration:          none;
 }
 
 .user-label {
-  cursor:           pointer;
-  cursor:           hand;
-  font-weight:      normal;
-  margin-bottom:    0;
+  cursor:                   pointer;
+  cursor:                   hand;
+  font-weight:              normal;
+  margin-bottom:            0;
 }
 
 .dropdown-menu > li > a:active,
 .dropdown-menu > li > a.active,
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-  background:       $sky-blue;
-  color:            white;
+  background:               $sky-blue;
+  color:                    white;
 }
 
 @media only screen and (max-width: 479px) {
   .brand-header {
-    display:        none;
+    display:                none;
   }
 
   #nav ul {
-    margin:         5px 0 0 -5px;
+    margin:                 5px 0 0 -5px;
   }
 
   #nav ul li {
-    border-radius:  5px;
-    height:         60px;
-    margin:         15px 0 0 0;
-    padding:        10px 0;
-    width:          60px;
+    border-radius:          5px;
+    height:                 60px;
+    margin:                 15px 0 0 0;
+    padding:                10px 0;
+    width:                  60px;
   }
 
   .menu-icon {
-    font-size:      1.8em;
-    line-height:    18px;
+    font-size:              1.8em;
+    line-height:            18px;
   }
 
   .menu-link {
-    font-size:      0.8em;
+    font-size:              0.8em;
   }
 
   .user-tag {
-    border:         0 solid white;
-    border-radius:  5px;
-    font-size:      1em;
-    margin:         33px -5px 30px 0;
-    padding:        3px;
+    border:                 0 solid white;
+    border-radius:          5px;
+    font-size:              1em;
+    margin:                 33px -5px 30px 0;
+    padding:                3px;
   }
 
   .user-tag-link {
-    padding:        8px 4px;
+    padding:                8px 4px;
   }
 
   .user-label {
-    display:        none;
+    display:                none;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 699px) {
   #nav ul li {
-    border-radius:  5px;
-    height:         40px;
-    margin:         20px 10px 0 0;
-    padding:        10px 0;
-    width:          40px;
+    border-radius:          5px;
+    height:                 40px;
+    margin:                 20px 10px 0 0;
+    padding:                10px 0;
+    width:                  40px;
   }
 
   .menu-icon {
-    font-size:      1.8em;
-    line-height:    18px;
+    font-size:              1.8em;
+    line-height:            18px;
   }
 
   .menu-link {
-    display:        none;
+    display:                none;
   }
 
   .user-label {
-    display:        none;
+    display:                none;
   }
 }
 
 @media screen and (min-width: 700px) and (max-width: 999px) {
   #nav ul li {
-    padding-top:    20px;
-    width:          80px;
+    padding-top:            20px;
+    width:                  80px;
   }
 
   .menu-icon {
-    font-size:      2em;
+    font-size:              2em;
   }
 
   .menu-link {
-    font-size:      0.9em;
-    margin-top:     5px;
-    text-align:     center;
+    font-size:              0.9em;
+    margin-top:             5px;
+    text-align:             center;
   }
 }
