@@ -186,9 +186,20 @@
   width:                    38%;
 }
 
+.block-showtime {
+  margin:                   10px auto;
+  width:                    450px;
+}
+
 .label-hour {
   font-size:                1.2em;
   font-weight:              normal;
+  line-height:              50px;
+}
+
+.label-balance {
+  font-size:                1.2em;
+  font-weight:              600;
   line-height:              50px;
 }
 
@@ -223,6 +234,14 @@
 
 .timepicki-input {
   font-weight:              500;
+}
+
+.pull-space {
+  margin-right:             3px;
+}
+
+.content-list {
+  margin-bottom:            -10px
 }
 
 .table {

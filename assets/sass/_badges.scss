@@ -1,0 +1,28 @@
+.badge {
+  border-radius:              5px;
+  color:                      white;
+  font-size:                  1em;
+  font-weight:                normal;
+  margin:                     0 5px;
+  padding:                    8px 12px;
+}
+
+.badge-blue {
+  @extend .badge;
+  background:                 $sky-blue;
+}
+
+.badge-orange {
+  @extend .badge;
+  background:                 $orange;
+}
+
+.badge-purple {
+  @extend .badge;
+  background:                 $purple;
+}
+
+.badge-teal {
+  @extend .badge;
+  background:                 $teal;
+}
