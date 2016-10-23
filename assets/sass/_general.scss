@@ -181,6 +181,7 @@
   display:                  inline-block;
   font-size:                1.4em;
   font-weight:              600;
+  letter-spacing:           1px;
   padding:                  5px 0;
   text-align:               right;
   width:                    38%;
@@ -200,6 +201,7 @@
 .label-balance {
   font-size:                1.4em;
   font-weight:              600;
+  letter-spacing:           1px;
   line-height:              50px;
 }
 
@@ -208,8 +210,9 @@
   border-radius:            5px;
   font-size:                1.6em;
   height:                   50px;
+  letter-spacing:           1px;
   padding:                  0 10px;
-  width:                    115px;
+  width:                    120px;
 }
 
 .hourpicker:focus {
