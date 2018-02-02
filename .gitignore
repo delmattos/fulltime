@@ -1,0 +1,11 @@
+/assets/.sass-cache
+.sass-cache
+.DS_Store
+Icon
+Icon/r
+npm-debug.log
+*.iml
+.vscode
+.env
+*.local.conf
+debug.log

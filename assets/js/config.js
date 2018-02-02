@@ -1,9 +1,12 @@
 $('#password').keypress(function (e) {
   var regex = new RegExp("^[a-zA-Z0-9]+$");
   var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+<<<<<<< HEAD:assets/js/config.js
   if (regex.test(str)) {
       return true;
   }  
+=======
+>>>>>>> 558453cb2d70ad624898ed95be6179d5365bc949:assets/js/custom.js
 });
 
 var d = new Date();
