@@ -75,14 +75,18 @@
       </div>
       <div class="dropdown date-select">
         <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="date-dropdown">
-          <b id="weekday"></b>, <b id="date"></b><span class="caret"></span>
+          <span class="current-weekday"></span>, <span class="current-day-month-year"></span><span class="caret"></span>
         </a>
         <ul class="dropdown-menu dropdown-menu-right">
           <li>
-              <a href="#" class="active" disabled>30 de Setembro</a>
+              <a href="#" class="active" disabled>
+                <span class="current-day-month"></span>
+              </a>
           </li>
           <li>
-              <a href="#">29 de Setembro</a>
+              <a href="#">
+                <span class="yesterday-month"></span>
+              </a>
           </li>
           <li>
               <a href="#">28 de Setembro</a>
@@ -228,13 +232,11 @@
   <script src="../assets/js/bootstrap.min.js"></script>
 
   <!-- Custom JS -->
-  <script src="../assets/js/custom.js"></script>
+  <script src="../assets/js/config.js"></script>
 
   <!-- TimePicki JS -->
   <script src="../assets/js/timepicki.js"></script>
 
-  <!-- Get Date JS -->
-  <script src="../assets/js/getdate.js"></script>
 </body>
 
 </html>
