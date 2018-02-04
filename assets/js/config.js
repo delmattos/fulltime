@@ -1,12 +1,9 @@
 $('#password').keypress(function (e) {
   var regex = new RegExp("^[a-zA-Z0-9]+$");
   var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
-<<<<<<< HEAD:assets/js/config.js
   if (regex.test(str)) {
-      return true;
-  }  
-=======
->>>>>>> 558453cb2d70ad624898ed95be6179d5365bc949:assets/js/custom.js
+    return true;
+  }
 });
 
 var d = new Date();
@@ -210,23 +207,23 @@ var rows = [{
     workday: "1 - Quinta",
     start:  "09:15",
     lunch:  "12:15",
-    return: "13:22",
-    end:    "18:20",
-    balance:"-0:02"
+    return: "13:21",
+    end:    "18:23",
+    balance:"+0:02"
 }, {
     workday: "2 - Sexta",
-    start:  "09:15",
-    lunch:  "12:15",
-    return: "13:22",
-    end:    "18:20",
+    start:  "09:10",
+    lunch:  "12:10",
+    return: "13:15",
+    end:    "18:13",
     balance:"-0:02"
 }, {
     workday: "5 - Segunda",
-    start:  "09:15",
-    lunch:  "12:15",
-    return: "13:22",
-    end:    "18:20",
-    balance:"-0:02"
+    start:  "09:03",
+    lunch:  "12:04",
+    return: "13:05",
+    end:    "18:11",
+    balance:"+0:07"
 }];
 
 var html = "<tr class=\"clickable-row\" data-href=\"day.html\">";

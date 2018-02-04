@@ -1,11 +1,15 @@
-/assets/.sass-cache
-.sass-cache
 .DS_Store
-Icon
-Icon/r
-npm-debug.log
-*.iml
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.sass-cache
+
+# Editor directories and files
+.idea
 .vscode
-.env
-*.local.conf
-debug.log
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
